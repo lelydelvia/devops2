@@ -13,11 +13,11 @@ app.disable("x-powered-by");
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/app1', (req, res) => {
-  res.send('whats up 1!')
+  res.send('whats up stag 1!')
 });
 
 app.get('/app2', (req, res) => {
-  res.send('whats up 2!')
+  res.send('whats up stag 2!')
 });
 
 app.get('/users', (req, res, next) => {
