@@ -3,5 +3,5 @@ services:
      build: ./apps
      restart: always
      ports:
-       - "1500:3000"
+       - "1600:3000"
      env_file: ./apps/.env
